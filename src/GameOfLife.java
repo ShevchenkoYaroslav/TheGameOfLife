@@ -287,7 +287,7 @@ public class GameOfLife extends JFrame {
         return count;
     }
 
-    // the main process of life
+    // the main process game of life
     void processOfLife() {
         for (int x = 0; x < LIFE_SIZE; x++) {
             for (int y = 0; y < LIFE_SIZE; y++) {
